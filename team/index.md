@@ -2,34 +2,33 @@
 title: Team
 nav:
   order: 3
-  tooltip: About our team
+  tooltip: Who we are
 ---
 
 # {% include icon.html icon="fa-solid fa-users" %}Team
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+SAFER Lab is led by the founders of SR4A and grows through collaboration: students, practitioners and partner agencies who want to work on evidence-based road safety. If that sounds like you, [get in touch](contact).
 
 {% include section.html %}
 
-{% include list.html data="members" component="portrait" filter="role == 'pi'" %}
-{% include list.html data="members" component="portrait" filter="role != 'pi'" %}
+## Leadership
+
+{% include list.html data="members" component="portrait" filter="role == 'principal-investigator'" %}
 
 {% include section.html background="images/background.jpg" dark=true %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+## Join us
+
+We welcome collaborators at every stage: graduate students looking for research topics in crash analytics and machine learning, practitioners who want to bring our tools into their agency, and organizations interested in partnering on road safety in low- and middle-income countries.
+
+{%
+  include button.html
+  link="contact"
+  text="Contact us"
+  icon="fa-solid fa-arrow-right"
+  flip=true
+%}
 
 {% include section.html %}
 
-{% capture content %}
-
-{% include figure.html image="images/photo.jpg" %}
-{% include figure.html image="images/photo.jpg" %}
-{% include figure.html image="images/photo.jpg" %}
-
-{% endcapture %}
-
-{% include grid.html style="square" content=content %}
+{% include list.html data="members" component="portrait" filter="role != 'principal-investigator'" %}

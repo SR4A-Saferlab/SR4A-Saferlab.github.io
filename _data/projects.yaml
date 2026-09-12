@@ -1,47 +1,68 @@
-- title: Cool Dataset
-  subtitle: a subtitle
-  group: featured
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - resource
+# Research themes and the studies under each. Group must be one of:
+# road-safety, climate-resilience, smart-cities
 
-- title: Cool Package
-  subtitle: a subtitle
-  group: featured
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+- title: Crash severity and imbalanced data
+  subtitle: Making rare, severe crashes predictable
+  group: road-safety
+  image: images/theme-road-safety.jpg
+  link: research
+  description: Severe and fatal crashes are rare, so models trained on raw data learn to predict "no injury". We design synthetic data generation techniques tailored to categorical crash predictors (SMOTE-N and ADASYN-N extensions) and benchmark statistical, machine learning and deep learning severity models to establish what works under differing conditions.
   tags:
-    - resource
+    - road safety
+    - machine learning
 
-- title: Cool Tutorial
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+- title: Vulnerable road users
+  subtitle: People who walk, cycle and ride
+  group: road-safety
+  image: images/theme-road-safety.jpg
+  description: Most people killed on the world's roads were never behind the wheel. We study pedestrian and cyclist safety, safe-system road design and speed management, and the perception of risk among non-motorists, including how it shifts after high-profile crashes.
   tags:
-    - resource
-    - publication
+    - road safety
+    - vulnerable road users
 
-- title: Cool Web App
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+- title: Weather-related crash risk mapping
+  subtitle: Where and when weather makes roads dangerous
+  group: climate-resilience
+  image: images/theme-climate.jpg
+  link: research
+  description: A statewide workflow that aggregates crashes into space-time cubes, scores each cell with an equivalent-property-damage-only risk measure, and uses interpretable machine learning to identify, predict and explain high-risk locations across seasons.
   tags:
-    - software
+    - climate resilience
+    - machine learning
 
-- title: Cool Web Server
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+- title: Crash risk forecasting
+  subtitle: Forecast-conditioned deep learning
+  group: climate-resilience
+  image: images/theme-climate.jpg
+  link: https://arxiv.org/abs/2603.04551
+  description: Crash history alone cannot predict weather-driven risk, but conditioning on the weather forecast restores it. A ConvLSTM-based framework for heterogeneous spatiotemporal data, with the largest gains concentrated in storm weeks.
   tags:
-    - software
+    - climate resilience
+    - machine learning
+
+- title: Mountain and rural corridors
+  subtitle: Terrain, weather and adaptive infrastructure
+  group: climate-resilience
+  image: images/theme-climate.jpg
+  description: Modeling the effect of mountainous terrain on weather-related crash rates with Tobit, latent-class Tobit and two-part models, and mapping high-risk corridors to recommend adaptive infrastructure countermeasures.
+  tags:
+    - climate resilience
+    - rural
+
+- title: Public perception of automated vehicles
+  subtitle: Trust, safety and adoption
+  group: smart-cities
+  image: images/theme-smart-cities.jpg
+  description: How public safety perception shapes the adoption of automated vehicles across different communities, from non-motorists' opinion change after a fatal AV crash to the social construction of autonomous taxis, ride-sharing and shuttles.
+  tags:
+    - smart cities
+    - automated vehicles
+
+- title: Rural readiness for automated shuttles
+  subtitle: Infrastructure, vulnerability, trust and funding
+  group: smart-cities
+  image: images/theme-smart-cities.jpg
+  description: Whether remote and underserved communities are equipped for autonomous shuttles, and what connected and automated vehicle data public agencies need. Includes a data readiness framework developed for the North Carolina Department of Transportation.
+  tags:
+    - smart cities
+    - equity

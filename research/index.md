@@ -7,20 +7,23 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-microscope" %}Research
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Peer-reviewed articles, technical reports and conference papers from SAFER Lab and its founders. Citations are generated automatically from [ORCID](https://orcid.org/0000-0002-1176-0422) and DOIs, so this page grows with every publication season.
 
 {% include section.html %}
 
 ## Highlighted
 
-{% include citation.html lookup="Open collaborative writing with Manubot" style="rich" %}
+{% include citation.html lookup="Weather-related crash risk forecasting" style="rich" %}
+{% include citation.html lookup="Spatiotemporal risk mapping of statewide weather-related traffic crashes" style="rich" %}
+{% include citation.html lookup="Effectiveness of data imbalance treatment" style="rich" %}
 
 {% include section.html %}
 
-## All
+## All publications
 
 {% include search-box.html %}
+
+{% include tags.html tags="road safety, climate resilience, smart cities, machine learning" %}
 
 {% include search-info.html %}
 

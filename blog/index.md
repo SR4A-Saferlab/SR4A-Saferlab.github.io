@@ -1,21 +1,14 @@
 ---
-title: Blog
+title: News
 nav:
-  order: 4
-  tooltip: Musings and miscellany
+  order: 5
+  tooltip: Updates from the lab
 ---
 
-# {% include icon.html icon="fa-solid fa-feather-pointed" %}Blog
+# {% include icon.html icon="fa-solid fa-newspaper" %}News
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Updates from SAFER Lab: new publications, conference presentations and partnerships.
 
 {% include section.html %}
-
-{% include search-box.html %}
-
-{% include tags.html tags=site.tags %}
-
-{% include search-info.html %}
 
 {% include list.html data="posts" component="post-excerpt" %}

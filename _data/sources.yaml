@@ -1,23 +1,12 @@
-- id: doi:10.1371/journal.pcbi.1007128
-  type: paper
-  description: Lorem ipsum _dolor_ **sit amet**, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  date: 2020-12-4
-  image: https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&rev=2
-  buttons:
-    - type: manubot
-      link: https://greenelab.github.io/meta-review/
-    - type: source
-      text: Manuscript Source
-      link: https://github.com/greenelab/meta-review
-    - type: website
-      link: http://manubot.org/
+# Additional sources not covered by ORCID. Use ids like doi:..., arxiv:..., pubmed:...
+- id: arxiv:2603.04551
+  description: A forecast-conditioned deep learning framework for weather-related crash risk. Crash history alone cannot predict weather-driven risk, but conditioning on the weather forecast restores it, with gains concentrated in storm weeks.
   tags:
-    - open science
-    - collaboration
-  repo: greenelab/meta-review
+    - climate resilience
+    - machine learning
 
-- id: doi:10.1016/j.csbj.2020.05.017
-  image: https://ars.els-cdn.com/content/image/1-s2.0-S2001037020302804-gr1.jpg
-
-- id: doi:10.7554/eLife.32822
-  image: https://iiif.elifesciences.org/lax:32822%2Felife-32822-fig8-v3.tif/full/863,/0/default.webp
+- id: doi:10.1177/03611981241239962
+  description: Tailored synthetic data generation (SMOTE-N and ADASYN-N extensions) for nominal crash predictors, benchmarked with random forest and XGBoost severity models.
+  tags:
+    - road safety
+    - machine learning
