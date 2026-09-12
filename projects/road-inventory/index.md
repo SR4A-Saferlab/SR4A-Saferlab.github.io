@@ -15,12 +15,11 @@ description: Building the comprehensive road inventory data Nigeria needs to ans
   flip=true
 %}
 
-{% include section.html %}
+{% include section.html size="full" %}
 
 {%
   include figure.html
-  image="images/road-inventory-concept.png"
-  caption="What we are building: a complete inventory of one local government area, layered in GIS and published as open shapefile / GeoPackage data — then scaled to state and national coverage."
+  image="images/road-inventory-concept-wide.png"
   width="100%"
 %}
 
