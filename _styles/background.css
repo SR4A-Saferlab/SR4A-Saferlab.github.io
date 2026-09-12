@@ -17,4 +17,27 @@
   z-index: -1;
 }
 
+.background:before {
+  opacity: 1;
+}
+
+.background[data-dark=true] .button {
+  background: #ffffff;
+  color: #12a150;
+}
+
+.background[data-dark=true] .button:hover {
+  background: #0c2b28;
+  color: #ffffff;
+}
+
+.background[data-dark=true] .button[data-style=bare] {
+  background: none;
+  color: #ffffff;
+}
+
+.background[data-dark=true] a:not(.button) {
+  color: #ffffff;
+}
+
 /*# sourceMappingURL=background.css.map */
