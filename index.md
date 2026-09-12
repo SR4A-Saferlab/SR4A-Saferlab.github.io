@@ -131,3 +131,9 @@ Our studies have been presented at the Transportation Research Board Annual Meet
   icon="fa-solid fa-arrow-right"
   flip=true
 %}
+
+{% include section.html %}
+
+<small>
+Photo credits: <a href="https://commons.wikimedia.org/wiki/File:African_Passage.jpg">"African Passage"</a> (Lagos) by Drekingshi; <a href="https://commons.wikimedia.org/wiki/File:Swimming_Car.jpg">"Swimming Car"</a> (Lagos) by Elgabarty2002; <a href="https://commons.wikimedia.org/wiki/File:Nairobi_Expressway,_2025_(03).jpg">"Nairobi Expressway, 2025"</a> by Bahnfrend. All via Wikimedia Commons, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>, cropped.
+</small>
