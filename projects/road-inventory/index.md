@@ -17,6 +17,15 @@ description: Building the comprehensive road inventory data Nigeria needs to ans
 
 {% include section.html %}
 
+{%
+  include figure.html
+  image="images/road-inventory-concept.png"
+  caption="What we are building: a complete inventory of one local government area, layered in GIS and published as open shapefile / GeoPackage data — then scaled to state and national coverage."
+  width="100%"
+%}
+
+{% include section.html %}
+
 ## The problem
 
 Every serious road safety decision starts with the same question: *what is out there?* How long is the network, what condition is it in, where are the intersections, the pedestrian crossings, the schools beside fast roads, the stretches with no lighting or no shoulder? Which corridors carry the most traffic, and where do people get hurt?
