@@ -56,7 +56,7 @@ Most people killed on the world's roads were never behind the wheel. We study th
 
 {%
   include feature.html
-  image="images/theme-road-safety.jpg"
+  image="images/photo-road-safety-lagos.jpg"
   link="projects"
   title="Road Safety"
   text=text
@@ -79,7 +79,7 @@ Storms, floods, fog and heat are reshaping when and where crashes happen. We bui
 
 {%
   include feature.html
-  image="images/theme-climate.jpg"
+  image="images/photo-flooded-road-lagos.jpg"
   link="projects"
   title="Climate Resilience"
   flip=true
@@ -103,7 +103,7 @@ New mobility technology can widen the safety gap or close it. We study public pe
 
 {%
   include feature.html
-  image="images/theme-smart-cities.jpg"
+  image="images/photo-nairobi-expressway.jpg"
   link="projects"
   title="Smart Cities"
   text=text
