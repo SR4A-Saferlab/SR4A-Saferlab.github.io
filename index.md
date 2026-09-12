@@ -126,16 +126,8 @@ Our studies have been presented at the Transportation Research Board Annual Meet
 
 {%
   include button.html
-  link="team"
-  text="Meet the team"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-%}
-{%
-  include button.html
   link="contact"
   text="Work with us"
   icon="fa-solid fa-arrow-right"
   flip=true
-  style="bare"
 %}
