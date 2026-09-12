@@ -130,13 +130,7 @@ Workshops, training and public awareness work that puts road safety knowledge in
 
 {% include section.html %}
 
-## Recent highlights
-
-{% include citation.html lookup="Weather-related crash risk forecasting" style="rich" %}
-
-{% include section.html %}
-
-Our studies have been presented at the Transportation Research Board Annual Meeting and the North Carolina Automated Vehicle Symposium, and published in journals including *Transportation Research Record*, *Machine Learning with Applications*, *IATSS Research* and *Heliyon*.
+SAFER Lab is new, and our publications, datasets and tools will appear here as they are released. In the meantime, the best way to follow the work is to get in touch or watch the [news](blog) page.
 
 {%
   include button.html

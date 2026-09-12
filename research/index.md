@@ -7,23 +7,19 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-microscope" %}Research
 
-Peer-reviewed articles, technical reports and conference papers from SAFER Lab and its founders. Citations are generated automatically from [ORCID](https://orcid.org/0000-0002-1176-0422) and DOIs, so this page grows with every publication season.
+Publications, technical reports and datasets produced by SAFER Lab. Citations are generated automatically from DOIs and other identifiers, so this page will grow as the lab's work is released.
 
 {% include section.html %}
 
 ## Highlighted
 
-{% include citation.html lookup="Weather-related crash risk forecasting" style="rich" %}
-{% include citation.html lookup="Spatiotemporal risk mapping of statewide weather-related traffic crashes" style="rich" %}
-{% include citation.html lookup="Effectiveness of data imbalance treatment" style="rich" %}
+*Lab publications will be highlighted here as they are released. Our first project, the [Nigeria Road Inventory Initiative](../projects/road-inventory), is under way.*
 
 {% include section.html %}
 
 ## All publications
 
 {% include search-box.html %}
-
-{% include tags.html tags="road safety, climate resilience, smart cities, machine learning" %}
 
 {% include search-info.html %}
 

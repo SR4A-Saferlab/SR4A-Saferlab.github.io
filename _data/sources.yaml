@@ -1,16 +1,2 @@
-# Additional sources not covered by ORCID. Use ids like doi:..., arxiv:..., pubmed:...
-- id: arxiv:2603.04551
-  description: A forecast-conditioned deep learning framework for weather-related crash risk. Crash history alone cannot predict weather-driven risk, but conditioning on the weather forecast restores it, with gains concentrated in storm weeks.
-  tags:
-    - climate resilience
-    - machine learning
-
-- id: doi:10.1177/03611981241239962
-  description: Tailored synthetic data generation (SMOTE-N and ADASYN-N extensions) for nominal crash predictors, benchmarked with random forest and XGBoost severity models.
-  tags:
-    - road safety
-    - machine learning
-
-# ORCID entry with only an ISSN identifier; it produces an empty citation, so drop it
-- id: "issn:09766316 09766308"
-  remove: true
+# Publication sources for the lab (ids like doi:..., arxiv:..., pubmed:...). Add lab publications here as they are released.
+[]
