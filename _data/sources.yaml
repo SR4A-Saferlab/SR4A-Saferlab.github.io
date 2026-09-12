@@ -10,3 +10,7 @@
   tags:
     - road safety
     - machine learning
+
+# ORCID entry with only an ISSN identifier; it produces an empty citation, so drop it
+- id: "issn:09766316 09766308"
+  remove: true
