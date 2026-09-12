@@ -84,15 +84,6 @@
   orcid: 0000-0002-1176-0422
   plugin: orcid.py
   file: orcid.yaml
-- id: issn:09766316 09766308
-  title: ''
-  authors: []
-  publisher: ''
-  date: ''
-  link: https://portal.issn.org/resource/ISSN/09766316 09766308
-  orcid: 0000-0002-1176-0422
-  plugin: orcid.py
-  file: orcid.yaml
 - id: arxiv:2603.04551
   title: 'Weather-Related Crash Risk Forecasting: A Deep Learning Approach for Heterogenous
     Spatiotemporal Data'
