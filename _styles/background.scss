@@ -19,3 +19,25 @@
   opacity: 0.25;
   z-index: -1;
 }
+
+// SR4A: show the brand-green banner at full strength (the template fades images to 25%)
+.background:before {
+  opacity: 1;
+}
+
+// On the green bands, a green button would vanish: render buttons white with green text
+.background[data-dark="true"] .button {
+  background: #ffffff;
+  color: #12a150;
+}
+.background[data-dark="true"] .button:hover {
+  background: #0c2b28;
+  color: #ffffff;
+}
+.background[data-dark="true"] .button[data-style="bare"] {
+  background: none;
+  color: #ffffff;
+}
+.background[data-dark="true"] a:not(.button) {
+  color: #ffffff;
+}
