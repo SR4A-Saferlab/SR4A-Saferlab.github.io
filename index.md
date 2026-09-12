@@ -122,8 +122,6 @@ Workshops, training and public awareness work that puts road safety knowledge in
 
 {% include section.html %}
 
-{% capture text %}
-
 Our studies have been presented at the Transportation Research Board Annual Meeting and the North Carolina Automated Vehicle Symposium, and published in journals including *Transportation Research Record*, *Machine Learning with Applications*, *IATSS Research* and *Heliyon*.
 
 {%
@@ -132,15 +130,12 @@ Our studies have been presented at the Transportation Research Board Annual Meet
   text="Meet the team"
   icon="fa-solid fa-arrow-right"
   flip=true
-  style="bare"
 %}
-
-{% endcapture %}
-
 {%
-  include feature.html
-  image="images/abimbola.jpg"
-  link="team"
-  title="Who we are"
-  text=text
+  include button.html
+  link="contact"
+  text="Work with us"
+  icon="fa-solid fa-arrow-right"
+  flip=true
+  style="bare"
 %}

@@ -9,10 +9,7 @@ proofer: false
 # site social media and other links
 links:
   email: info@sr4a.com
-  orcid: 0000-0002-1176-0422
-  google-scholar: DMrJ_MYAAAAJ
   github: SR4A-Saferlab
-  linkedin: https://www.linkedin.com/in/abimbola08/
   home-page: https://sr4a.com
 
 ### jekyll settings

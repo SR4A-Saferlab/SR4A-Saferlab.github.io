@@ -21,12 +21,6 @@ SAFER Lab is based in Atlanta, Georgia, and works with partners across the Unite
   text="sr4a.com"
   link="https://sr4a.com"
 %}
-{%
-  include button.html
-  type="linkedin"
-  text="LinkedIn"
-  link="https://www.linkedin.com/in/abimbola08/"
-%}
 
 {% include section.html background="images/background.jpg" dark=true %}
 
