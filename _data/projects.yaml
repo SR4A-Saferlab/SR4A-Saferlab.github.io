@@ -1,3 +1,15 @@
+# Active projects (shown first)
+
+- title: Nigeria Road Inventory Initiative
+  subtitle: Our first project — from one local government area to a national dataset
+  group: active
+  image: images/theme-road-safety.jpg
+  link: projects/road-inventory
+  description: Nigeria has no comprehensive, consistent inventory of its roads, so agencies plan without knowing what is out there and researchers cannot model risk. We are building one, starting with a pilot local government area and scaling deliberately toward national coverage, published as open data.
+  tags:
+    - road safety
+    - data
+
 # Research themes and the studies under each. Group must be one of:
 # road-safety, climate-resilience, smart-cities
 

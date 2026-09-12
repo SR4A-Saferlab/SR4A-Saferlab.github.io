@@ -21,6 +21,20 @@ No one should die getting where they're going. SAFER Lab produces the evidence b
   link="https://sr4a.com"
 %}
 
+{% include section.html background="images/background.jpg" dark=true %}
+
+## Our first project: a road inventory for Nigeria
+
+Nigeria has no comprehensive record of its own roads — what is out there, what condition it is in, where the crossings, lighting and hazards are. Without it, no one can answer basic safety questions or direct money to where it will save the most lives. We are building that inventory, starting with a single local government area and scaling toward a national, open dataset.
+
+{%
+  include button.html
+  link="projects/road-inventory"
+  text="About the Road Inventory Initiative"
+  icon="fa-solid fa-arrow-right"
+  flip=true
+%}
+
 {% include section.html %}
 
 ## What we work on

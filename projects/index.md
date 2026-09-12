@@ -11,6 +11,13 @@ Road danger, a changing climate and the way cities are being rebuilt around data
 
 {% include section.html %}
 
+<a id="active"></a>
+## Active projects
+
+{% include list.html data="projects" component="card" filter="group == 'active'" %}
+
+{% include section.html %}
+
 <a id="road-safety"></a>
 ## Road Safety
 
