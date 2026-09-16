@@ -7,7 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-microscope" %}Research
 
-Publications, technical reports and datasets produced by SAFER Lab. Citations are generated automatically from DOIs and other identifiers, so this page will grow as the lab's work is released.
+Program evaluations, technical reports, datasets and peer-reviewed publications produced by SAFER Lab and its partners. Citations are generated automatically from DOIs and other identifiers, so this page will grow as the lab's work is released.
 
 {% include section.html %}
 

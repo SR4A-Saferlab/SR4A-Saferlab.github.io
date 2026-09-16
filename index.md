@@ -5,12 +5,12 @@
 
 **Safety Analytics for Equitable & Resilient mobility** — the research lab of [SR4A, Safety and Resilience for All](https://sr4a.com).
 
-No one should die getting where they're going. SAFER Lab produces the evidence behind that goal: peer-reviewed research, machine learning and geospatial tools, and training that help agencies anticipate risk on the road rather than count casualties afterwards. Our work sits at the intersection of **road safety**, **climate resilience** and **smart cities**, with a focus on the people and places that usually get left out.
+Road traffic injury is the leading killer of children and young people worldwide, and nine in ten of those deaths happen in low- and middle-income countries. SAFER Lab exists to change that number where it is highest. We work with communities, schools, local governments and health systems to prevent injuries before they happen, to deploy technology that makes cities more livable, and to help neighborhoods withstand the floods and heat that are already reshaping daily life. Every project is designed with the people it serves, measured against outcomes that matter to them, and built to be funded, scaled and sustained.
 
 {%
   include button.html
-  link="research"
-  text="Our publications"
+  link="projects"
+  text="What we work on"
   icon="fa-solid fa-arrow-right"
   flip=true
 %}
@@ -41,12 +41,12 @@ Nigeria has no comprehensive record of its own roads — what is out there, what
 
 {% capture text %}
 
-Most people killed on the world's roads were never behind the wheel. We study the safety of people who walk, cycle and ride, and the road designs, speeds and crash-severity factors that decide whether a mistake is survivable.
+Children walking to school, young motorcycle riders, street traders, older adults and people with disabilities carry most of the world's road-injury burden and have the least say in how streets are designed. We run community-based programs — safe school zones, speed management, helmet and rider-safety initiatives, post-crash care — and measure what actually reduces injuries.
 
 {%
   include button.html
-  link="projects#road-safety"
-  text="Road safety research"
+  link="projects#injury-prevention"
+  text="Injury prevention programs"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
@@ -58,42 +58,18 @@ Most people killed on the world's roads were never behind the wheel. We study th
   include feature.html
   image="images/photo-road-safety-lagos.jpg"
   link="projects"
-  title="Road Safety"
+  title="Injury Prevention for Young & Vulnerable People"
   text=text
 %}
 
 {% capture text %}
 
-Storms, floods, fog and heat are reshaping when and where crashes happen. We build weather-related crash risk maps, severity models and forecasting tools so agencies can plan for the climate they will actually get.
-
-{%
-  include button.html
-  link="projects#climate-resilience"
-  text="Climate resilience research"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
-%}
-
-{% endcapture %}
-
-{%
-  include feature.html
-  image="images/photo-flooded-road-lagos.jpg"
-  link="projects"
-  title="Climate Resilience"
-  flip=true
-  text=text
-%}
-
-{% capture text %}
-
-New mobility technology can widen the safety gap or close it. We study public perception of automated vehicles, agencies' readiness for connected-vehicle data, and how to make data-driven planning serve rural and underserved communities.
+Technology only improves a city if it reaches the people who need it. We pilot low-cost sensing, open data platforms, better street lighting, safer crossings and digital tools for local planners, and we evaluate whether each deployment made daily life measurably safer, healthier and more livable — especially in neighborhoods that smart-city projects usually skip.
 
 {%
   include button.html
   link="projects#smart-cities"
-  text="Smart cities research"
+  text="Smart and livable cities"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
@@ -105,7 +81,31 @@ New mobility technology can widen the safety gap or close it. We study public pe
   include feature.html
   image="images/photo-nairobi-expressway.jpg"
   link="projects"
-  title="Smart Cities"
+  title="Smart & Livable Cities"
+  flip=true
+  text=text
+%}
+
+{% capture text %}
+
+Floods, extreme heat and storms hit the same communities hardest and cut them off from work, school and care. We help local governments identify which routes and crossings fail first, plan early warnings and detours with residents, and build streets that keep working in the climate people will actually live in.
+
+{%
+  include button.html
+  link="projects#resilient-communities"
+  text="Community resilience"
+  icon="fa-solid fa-arrow-right"
+  flip=true
+  style="bare"
+%}
+
+{% endcapture %}
+
+{%
+  include feature.html
+  image="images/photo-flooded-road-lagos.jpg"
+  link="projects"
+  title="Resilient Communities"
   text=text
 %}
 
@@ -114,23 +114,23 @@ New mobility technology can widen the safety gap or close it. We study public pe
 ## How we work
 
 {% capture col1 %}
-### Research
-Peer-reviewed and conference-presented studies on crash risk, weather and mobility, with methods published so others can build on them.
+### With communities
+Residents, schools, riders' unions, market associations and local governments help define the problem, shape the intervention and own the results.
 {% endcapture %}
 {% capture col2 %}
-### Technology
-Machine learning, geospatial analysis and forecasting tools that let agencies anticipate risk rather than count casualties afterwards.
+### On evidence
+Every program has a baseline, a measurable outcome and an evaluation, so partners and funders can see what worked and what to scale.
 {% endcapture %}
 {% capture col3 %}
-### Education
-Workshops, training and public awareness work that puts road safety knowledge into the hands of practitioners and communities.
+### Built to last
+We design for local budgets and local capacity — training people, opening data and handing over tools — so the work continues after the grant ends.
 {% endcapture %}
 
 {% include cols.html col1=col1 col2=col2 col3=col3 %}
 
 {% include section.html %}
 
-SAFER Lab is new, and our publications, datasets and tools will appear here as they are released. In the meantime, the best way to follow the work is to get in touch or watch the [news](blog) page.
+Our work supports the UN Decade of Action for Road Safety target of halving road deaths and injuries by 2030, and the Sustainable Development Goals on health (3.6) and safe, inclusive cities (11.2). We partner with agencies, universities, NGOs and funders who share those goals.
 
 {%
   include button.html
