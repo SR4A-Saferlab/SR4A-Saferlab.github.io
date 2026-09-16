@@ -10,71 +10,95 @@
     - road safety
     - data
 
-# Research themes and the studies under each. Group must be one of:
-# road-safety, climate-resilience, smart-cities
+# Program areas. Group must be one of:
+# injury-prevention, smart-cities, resilient-communities
 
-- title: Crash severity and imbalanced data
-  subtitle: Making rare, severe crashes predictable
-  group: road-safety
+- title: Safe school zones
+  subtitle: Protecting children on the way to and from school
+  group: injury-prevention
   image: images/photo-road-safety-lagos.jpg
-  link: research
-  description: Severe and fatal crashes are rare, so models trained on raw data learn to predict "no injury". We design synthetic data generation techniques tailored to categorical crash predictors (SMOTE-N and ADASYN-N extensions) and benchmark statistical, machine learning and deep learning severity models to establish what works under differing conditions.
+  description: Road crashes are the leading cause of death for children over five. We work with schools, parents and local governments to audit school routes, lower speeds, add crossings and footpaths, and measure the change in speeds, near-misses and injuries — a proven, low-cost model that funders back and communities can maintain.
   tags:
-    - road safety
-    - machine learning
+    - children
+    - speed management
 
-- title: Vulnerable road users
-  subtitle: People who walk, cycle and ride
-  group: road-safety
+- title: Motorcycle and rider safety
+  subtitle: Young riders, passengers and the informal transport workforce
+  group: injury-prevention
   image: images/photo-road-safety-lagos.jpg
-  description: Most people killed on the world's roads were never behind the wheel. We study pedestrian and cyclist safety, safe-system road design and speed management, and the perception of risk among non-motorists, including how it shifts after high-profile crashes.
+  description: Commercial motorcycles move millions of people across African cities and account for a growing share of serious injuries, most of them young men. We partner with riders' unions on helmet access and quality, rider training, and safer pick-up points, and evaluate what changes behavior and reduces head injuries.
   tags:
-    - road safety
+    - motorcycles
+    - young people
+
+- title: Pedestrians, traders and older adults
+  subtitle: Safety for the people who never get behind the wheel
+  group: injury-prevention
+  image: images/photo-road-safety-lagos.jpg
+  description: Street traders, people crossing arterial roads and older adults face the highest risk and are rarely counted. We map where they are hurt, test safe-system fixes such as speed humps, refuge islands, lighting and market-edge design, and build the local crash and injury data that makes the problem visible.
+  tags:
     - vulnerable road users
+    - safe system
 
-- title: Weather-related crash risk mapping
-  subtitle: Where and when weather makes roads dangerous
-  group: climate-resilience
-  image: images/photo-flooded-road-lagos.jpg
-  link: research
-  description: A statewide workflow that aggregates crashes into space-time cubes, scores each cell with an equivalent-property-damage-only risk measure, and uses interpretable machine learning to identify, predict and explain high-risk locations across seasons.
+- title: Post-crash care and emergency response
+  subtitle: Surviving the first hour
+  group: injury-prevention
+  image: images/photo-road-safety-lagos.jpg
+  description: Many road deaths happen after the crash, not at it. We study emergency response times, first-responder training and trauma referral pathways with health partners, and pilot low-cost dispatch and bystander-care programs so that a survivable injury stays survivable.
   tags:
-    - climate resilience
-    - machine learning
+    - post-crash care
+    - health systems
 
-- title: Crash risk forecasting
-  subtitle: Forecast-conditioned deep learning
-  group: climate-resilience
-  image: images/photo-flooded-road-lagos.jpg
-  link: https://arxiv.org/abs/2603.04551
-  description: Crash history alone cannot predict weather-driven risk, but conditioning on the weather forecast restores it. A ConvLSTM-based framework for heterogeneous spatiotemporal data, with the largest gains concentrated in storm weeks.
-  tags:
-    - climate resilience
-    - machine learning
-
-- title: Mountain and rural corridors
-  subtitle: Terrain, weather and adaptive infrastructure
-  group: climate-resilience
-  image: images/photo-flooded-road-lagos.jpg
-  description: Modeling the effect of mountainous terrain on weather-related crash rates with Tobit, latent-class Tobit and two-part models, and mapping high-risk corridors to recommend adaptive infrastructure countermeasures.
-  tags:
-    - climate resilience
-    - rural
-
-- title: Public perception of automated vehicles
-  subtitle: Trust, safety and adoption
+- title: Low-cost sensing and open data
+  subtitle: Seeing the city so it can be fixed
   group: smart-cities
   image: images/photo-nairobi-expressway.jpg
-  description: How public safety perception shapes the adoption of automated vehicles across different communities, from non-motorists' opinion change after a fatal AV crash to the social construction of autonomous taxis, ride-sharing and shuttles.
+  description: Most cities in the Global South make transport decisions with almost no data. We deploy affordable sensors, camera-based counting and mobile data collection to measure traffic, speeds, pedestrian flows and air quality, and publish the results as open data that residents, planners and journalists can use.
   tags:
     - smart cities
-    - automated vehicles
+    - open data
 
-- title: Rural readiness for automated shuttles
-  subtitle: Infrastructure, vulnerability, trust and funding
+- title: Safer streets through technology
+  subtitle: Lighting, crossings and signals that serve people
   group: smart-cities
   image: images/photo-nairobi-expressway.jpg
-  description: Whether remote and underserved communities are equipped for autonomous shuttles, and what connected and automated vehicle data public agencies need. Includes a data readiness framework developed for the North Carolina Department of Transportation.
+  description: Street lighting, pedestrian signals and smarter intersections are among the most cost-effective safety investments a city can make. We pilot deployments with local governments, evaluate their effect on injuries and how people use the street at night, and produce the evidence cities need to scale them.
   tags:
     - smart cities
-    - equity
+    - infrastructure
+
+- title: Digital tools for local planners
+  subtitle: Putting decision support in the hands of local government
+  group: smart-cities
+  image: images/photo-nairobi-expressway.jpg
+  description: Local governments rarely have the analysts or software to prioritize where to act. We build simple GIS dashboards and risk-mapping tools on top of open data, train local staff to use them, and hand them over — so technology deployment ends with a capable agency, not a vendor contract.
+  tags:
+    - smart cities
+    - capacity building
+
+- title: Flood-ready streets
+  subtitle: Keeping communities connected when the water rises
+  group: resilient-communities
+  image: images/photo-flooded-road-lagos.jpg
+  description: Seasonal flooding closes roads, cuts children off from school and delays emergency care in the same neighborhoods every year. We map which routes and crossings fail first, work with residents on detours and early warnings, and identify the drainage and road fixes that restore access fastest.
+  tags:
+    - flooding
+    - resilience
+
+- title: Heat, weather and daily mobility
+  subtitle: Adapting how people move to the climate they have
+  group: resilient-communities
+  image: images/photo-flooded-road-lagos.jpg
+  description: Extreme heat and storms change when and how people travel and who gets hurt. We study how weather shifts risk for people walking, riding and waiting for transport, and design shade, shelter, timing and warning measures with communities that keep everyday journeys safe.
+  tags:
+    - climate
+    - public health
+
+- title: Community crash and hazard reporting
+  subtitle: Data from the people who live with the risk
+  group: resilient-communities
+  image: images/photo-flooded-road-lagos.jpg
+  description: Official crash records miss most injuries and almost all hazards. We build simple ways for residents, riders and health workers to report crashes, flooding and dangerous locations, and turn those reports into maps that local governments and funders act on.
+  tags:
+    - community data
+    - participatory
